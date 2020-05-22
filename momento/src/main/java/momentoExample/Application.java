@@ -8,12 +8,12 @@ public class Application {
 		
 		
 		FileWriterUtil fileWriterUtil = new FileWriterUtil("Test.txt");
-		fileWriterUtil.write("First Data set | ");
+		fileWriterUtil.write("First Data set ");
 		System.out.println(fileWriterUtil);
 		
 		careTaker.save(fileWriterUtil);
 		
-		fileWriterUtil.write("Second Data set");
+		fileWriterUtil.write("Second Data set ");
 		System.out.println(fileWriterUtil);
 		
 		careTaker.undo(fileWriterUtil);
