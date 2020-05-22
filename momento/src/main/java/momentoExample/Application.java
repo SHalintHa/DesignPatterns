@@ -16,6 +16,13 @@ public class Application {
 		fileWriterUtil.write("Second Data set ");
 		System.out.println(fileWriterUtil);
 		
+		careTaker.save(fileWriterUtil);
+		
+		fileWriterUtil.write("Third Data set ");
+		System.out.println(fileWriterUtil);
+		
+		
+		
 		careTaker.undo(fileWriterUtil);
 		System.out.println(fileWriterUtil);
 		
